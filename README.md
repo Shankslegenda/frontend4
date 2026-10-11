@@ -2,6 +2,8 @@ Assignment 4
 Sakenov Aldiyar
 IT-2501
 
+
+https://shankslegenda.github.io/frontend4/
 Task 0: Simple Contact Form
 Created a form with name,email and message fields.
 <img width="749" height="311" alt="image" src="https://github.com/user-attachments/assets/85e84049-ae0b-4931-a468-98e160163cce" />
