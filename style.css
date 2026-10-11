@@ -26,3 +26,25 @@ h1 {
   font-size: 1.4rem;
   margin-bottom: 12px;
 }
+
+.needs-validation .form-control:user-valid,
+.needs-validation .form-select:user-valid {
+  border-color: #198754;
+}
+
+.needs-validation .form-control:user-invalid,
+.needs-validation .form-select:user-invalid {
+  border-color: #dc3545;
+}
+
+.needs-validation .form-control:user-valid ~ .valid-feedback,
+.needs-validation .form-select:user-valid ~ .valid-feedback,
+.needs-validation .form-check-input:user-valid ~ .valid-feedback {
+  display: block;
+}
+
+.needs-validation .form-control:user-invalid ~ .invalid-feedback,
+.needs-validation .form-select:user-invalid ~ .invalid-feedback,
+.needs-validation .form-check-input:user-invalid ~ .invalid-feedback {
+  display: block;
+}
