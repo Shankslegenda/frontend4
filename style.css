@@ -1,0 +1,28 @@
+body {
+  background: #f4f4f4;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 850px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 18px;
+}
+
+.assignment-part {
+  background: white;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+  padding: 16px;
+}
+
+.assignment-part h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+}
